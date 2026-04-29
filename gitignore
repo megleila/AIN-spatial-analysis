@@ -1,0 +1,28 @@
+# R artifacts
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large data — never commit
+*.rds
+*.h5ad
+*.h5
+*.mcd
+*.tiff
+*.tif
+*.parquet
+*.csv
+*.xlsx
+data/
+output/
+results/
